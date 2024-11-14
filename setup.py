@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="xfil",
-    version="0.1.0",
+    version="0.1.1",
     py_modules=["xfil"],
     install_requires=[
         "requests>=2.32.3",
