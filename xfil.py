@@ -269,7 +269,10 @@ def main():
                        help='Content-Type header for POST requests')
     parser.add_argument('--headers',
                        help='Additional headers in JSON format or "Key: Value" pairs separated by semicolons or newlines')
-    
+    parser.add_argument('-v', '--version', 
+                   action='version',
+                   version='xfil 0.1.0',
+                   help='Show program version')
     args = parser.parse_args()
     
     if not args.quiet:
