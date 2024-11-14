@@ -7,8 +7,6 @@ xfil is a tool that performs blind XPath exploitation and data exfiltration. Thi
 usage: xfil.py [-h] [-q] --url URL --method {GET,POST} --param PARAM [--success-text SUCCESS_TEXT] [--failure-text FAILURE_TEXT] [--success-code SUCCESS_CODE]
                [--failure-code FAILURE_CODE] [--post-data POST_DATA] [--content-type {application/json,application/x-www-form-urlencoded,multipart/form-data}] [--headers HEADERS] [-v]
 
-xfil : Blind XPath exfiltration tool
-
 options:
   -h, --help            show this help message and exit
   -q, --quiet           Suppress banner
